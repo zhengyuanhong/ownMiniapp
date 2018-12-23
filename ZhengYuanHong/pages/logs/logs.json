@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "  Content of the article",
+      "usingComponents": {
+        "wxparser": "plugin://wxparserPlugin/wxparser"
+      }
+}

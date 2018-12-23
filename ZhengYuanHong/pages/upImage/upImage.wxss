@@ -1,0 +1,49 @@
+.formC{
+  margin-top: 20rpx;
+}
+.formC input{
+  border-style: solid;
+  border-color: gainsboro;
+  border-width: 1px;
+  border-radius: 10rpx;
+  width: 600rpx;
+  height: 100rpx;
+  margin-top: 20rpx;
+  margin: 20rpx auto;
+}
+.formC button{
+ width: 600rpx;
+}
+.ic{
+  position: relative;
+  z-index: 2;
+  top: 20rpx;
+  left: 20rpx;
+}
+.p{
+  width: 530rpx;
+  height: 310rpx;
+  box-shadow:-1px 0px 6px #333333;
+  margin-left: 105rpx;
+  margin-top: 20rpx;
+}
+.c{
+  display: flex;
+  flex-direction: column;
+}
+.d{
+  text-align: center;
+  width: 530rpx;
+  background: gainsboro;
+  height: 100rpx;
+  margin-left: 105rpx;
+  margin-top: 20rpx;
+  line-height: 87rpx;
+}
+.but{
+   width: 600rpx;
+   margin-top: 20rpx;
+}
+.sroll_b{
+  height: 700rpx;
+}

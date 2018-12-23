@@ -1,0 +1,6 @@
+<view class='photo' >
+    <block wx:for="{{pic_url}}" wx:key="d" >
+        <image id='{{index}}'  bindtap='preImage' src='{{item.photo_url}}' mode="aspectFill"  />
+    </block>
+</view>
+  <view class='jiazai' bindtap='jiazai' >加载更多</view>

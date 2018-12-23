@@ -1,0 +1,15 @@
+
+<view class='a' >
+  <form bindsubmit="upload" class='formC' >
+      <input placeholder='给照片取名字'  name="Imagename"/>    
+      <button type="primary" plain='true'  form-type="submit">上传照片</button>
+  </form>
+  <button class='but' type="primary" bindtap='shua' >刷新</button>
+</view>
+              <scroll-view class='scroll_b' scroll-x="{{true}}" >
+                  <block wx:for="{{pic_url}}" wx:key="d" >
+                      <image id='{{index}}'  class='p' bindtap='preImage' src='{{item.photo_url}}' mode="aspectFill"  ></image>
+                      <view class='d' id='{{index}}' bindtap='shanchu' >删除图片</view>
+                  </block>
+              </scroll-view>
+

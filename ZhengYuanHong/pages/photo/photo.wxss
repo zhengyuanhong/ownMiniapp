@@ -1,0 +1,25 @@
+.photo{
+  display: flex;
+  flex-direction: row;
+  width: 750rpx;
+  flex-wrap: wrap;
+}
+.photo image{
+  width: 235rpx;
+  height: 180rpx;
+  box-shadow:-1px 0px 6px #f0eded;
+  margin-left: 13rpx;
+  border-radius: 10rpx;
+  margin-top: 20rpx;
+}
+.jiazai{
+  width: 155rpx;
+  height: 39rpx;
+  margin: 10rpx  auto;
+  border-style: solid;
+  border-color: gray;
+  border-width: 1px;
+  border-radius: 39rpx;
+  text-align: center;
+  font-size: 27rpx;
+}

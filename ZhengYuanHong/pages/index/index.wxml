@@ -1,0 +1,77 @@
+<image bindtap='shuaxin' class='shuxin' src='/image/shua.png' />
+<view class='zheng-all' >
+      <view class='footer' bindtap='showimfor' >
+        <text>个人资料</text>
+      </view>
+      <image  class='b' src='{{personal.beijing_photo}}' mode="scaleToFill"  /><!--背景图片-->
+
+      <image class='a' bindtap='denglu'  src='{{personal.touxiang_photo}}' /><!--头像-->
+
+        <view class='c'>{{personal.Xin_ming}}</view><!--姓名-->
+        <view class='d' >{{personal.Qianming}}</view><!--个性签名-->
+  <view class='zheng-neirong' >
+  <!--生活照片模块-->
+      <view class="AA">
+          <view class='list' >
+              <view class='list1' ></view>
+              <view class='list2' >Life picture</view>
+              <image src='/image/tiao.png' bindtap='tiao_photo'  />
+          </view>
+              <scroll-view class='scroll_b' scroll-x="{{true}}" >
+                  <block wx:for="{{pic_url}}" wx:key="d" >
+                      <image id='{{index}}'  class='p' bindtap='preImage' src='{{item.photo_url}}' mode="aspectFill"  ></image>
+                  </block>
+              </scroll-view>
+      </view>
+
+      <view class="AA">
+          <view class='list' >
+              <view class='list1' ></view>
+              <view class='list2' >My article</view>
+          </view>
+        <view class='diary'>
+          <block wx:if="{{article==''}}" >
+              <view class='tip' >暂无内容~</view>
+          </block>
+          <block wx:if="{{article!=''}}"  wx:for="{{article}}" wx:key="k" >
+            <view class='notes'>
+                <view class='num'>{{index+1}}</view>
+                <image src='{{photo[index]}}'/>
+                <view class='notes_title' id="{{index}}"  bindtap='title_content'>{{item.title}}</view>
+            </view>  
+          </block>         
+        </view>
+            <button class="chat" open-type="contact" plain='true' session-from="weapp">找他聊聊</button>
+            <button class='shareID' id="shareBtn" open-type="share" type="primary" hover-class="other-button-hover">分享给其他朋友</button>
+         <official-account></official-account>
+      </view>
+  </view>
+</view>
+<view class='shuoming' >Copyright 2018 by zheng</view>
+<!--生活照片模块-->
+<!--个人信息模块-->
+<view  class='person_imfor' wx:if="{{viewshow}}" ></view>
+
+<view class='perosn' wx:if="{{viewshow}}" >
+        <icon bindtap='hiddenimfor'  class='ic' type="cancel" size="40"/>
+        <scroll-view class='scroll_a' scroll-y="{{true}}"  >
+            <view class='geren' >姓名：<text>{{personal.Xin_ming}}</text></view>
+            <view class='geren' >性别：<text>{{personal.Xin_bie}}</text></view>
+            <view class='geren' >年龄：<text>{{personal.age}}</text></view>
+            <view class='geren' >民族：<text>{{personal.min_zu}}</text></view>
+            <view class='geren' >出生日期：<text>{{personal.Chu_sheng}}</text></view>
+            <view class='geren' >毕业学校：<text>{{personal.Bi_ye_xuexiao}}</text></view>
+            <view class='geren' >专业：<text>{{personal.Zhuan_ye}}</text></view>
+            <view class='geren' >家庭地址：<text>{{personal.JIa_ting_dizhi}}</text></view>
+            <view class='geren' >个人信条：<text>{{personal.Ge_ren_xintiao}}</text></view>
+            <view class='geren' >座右铭：<text>{{personal.Zuo_you_min}}</text></view>
+            <view class='geren' >爱好：<text>{{personal.Ai_hao}}</text></view>
+            <view class='geren' >QQ号：<text>{{personal.QQ}}</text></view>
+            <view class='geren' >QQ邮箱：<text>{{personal.QQ_email}}</text></view>
+            <view class='geren' >微信号：<text>{{personal.Wei_xin}}</text></view>
+            <view class='geren' >微博：<text>{{personal.weibo}}</text></view>
+            <view class='geren' >电话号码：<text>{{personal.tel}}</text></view>
+        </scroll-view>
+</view>
+<!--个人信息模块-->
+

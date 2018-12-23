@@ -1,0 +1,8 @@
+  <image class='a' src='{{userImg}}' />
+<view class='aa' >
+    <form bindsubmit="bindFormSubmit" class='formC' >
+      <input  name="username"/>
+      <input  password="true" name="password"/>    
+      <button type="primary"  form-type="submit"> 登录 </button>
+    </form>
+</view>

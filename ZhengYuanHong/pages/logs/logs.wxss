@@ -1,0 +1,13 @@
+.a{
+  width: 700rpx;
+  margin-left: 25rpx;
+}
+.title{
+  font-weight: bold;
+  text-align: center;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  border-bottom-color: gainsboro;
+  font-size: 42rpx;
+}

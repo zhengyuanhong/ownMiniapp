@@ -1,0 +1,6 @@
+  
+<view class="a" >
+    <view class='title' >{{richText.title}}</view>
+    <official-account></official-account> 
+    <wxparser  rich-text="{{richText.content}}" bind:tapLink="goto" />
+</view>
