@@ -1,0 +1,22 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "景院服务辩论计时器",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "list":[{
+        "pagePath": "pages/index/index",
+        "text": "计时"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "设置"
+      }]
+  }
+}

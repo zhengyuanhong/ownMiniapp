@@ -1,0 +1,35 @@
+<view class='title' bindtap='actionSheetTap' >
+    <text class='pull-left'>{{"<<"}}</text>{{title}}<text class='pull-right'>{{">>"}}</text>
+</view>
+
+<!--左边圆动画-->
+    <view class='time'>
+        <view class='big-circle blue first' ></view>   
+        <view animation="{{leftAnimationData}}" class='big-circle blue1 right first' > </view>  
+        <view class='circle wite first'><view>{{leftTime}}s </view></view>
+
+        <!--右边圆动画-->
+        <view class='big-circle blue second' ></view>   
+        <view animation="{{rightAnimationData}}" class='big-circle blue1 right second' > </view>  
+        <view class='circle wite second'><view>{{rightTime}}s </view></view>
+    </view>
+
+
+    <view class="btnGroup">
+      <button class='btn'  bindtap='leftStart' >正方发言</button>
+      <button  class='btn'  bindtap='rightStart'>反方发言</button>
+    </view>
+
+<view class='desc' >
+    <text>{{dsc}}</text>
+</view>
+
+<audio  src="{{src}}" id="myAudio"  loop></audio>
+
+<action-sheet hidden="{{actionSheetHidden}}" bindchange = 'actionSheetChange'>
+  <block wx:for = '{{actionSheetItems}}' wx:key='d'>
+          <action-sheet-item class='item' bindtap ='bindItemTap' id="{{item.id}}" data-name="{{item}}">{{item.name}}</action-sheet-item>
+
+  </block>
+        <action-sheet-cancel class='cancel'>取消</action-sheet-cancel>
+</action-sheet>
