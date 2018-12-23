@@ -1,0 +1,92 @@
+.all{
+  background: white;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rpx;
+}
+.biaoti{
+  display: flex;
+  flex-direction: row;
+  height: 144rpx;
+  margin-top: 20rpx 20rpx;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  border-bottom-color: gainsboro;
+}
+.qian{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20rpx;
+  margin-left: 15rpx;
+}
+.qian text{
+  margin-top: 20rpx;
+}
+.tt{
+  width: 485rpx;
+}
+.aa{
+  margin-top: 20rpx;
+}
+.lianxi{
+  width: 655rpx;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20rpx;
+  margin-left: 45rpx;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  border-bottom-color: gainsboro;
+}
+.lianxi text{
+  margin-left: 334rpx;
+}
+.biaoti1{
+  margin-left: 20rpx;
+  display: flex;
+  margin-top: 20rpx;
+  flex-direction: column;
+  font-weight: bold;
+}
+.neirong{
+  display: flex;
+  flex-direction: row;
+  font-size: 31rpx;
+  margin-top: 10rpx;
+  margin-bottom: 20rpx;  
+
+}
+.neirong1{
+  margin-left: 45rpx;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  border-bottom-color: gainsboro;
+
+  display: flex;
+  flex-direction: row;
+}
+.neirong1 text{
+  color: gainsboro;
+}
+.cont{
+  width: 506rpx;
+  font-size: 26rpx;
+}
+.xiang{
+  margin-left: 45rpx;
+  width: 655rpx;
+  color: gainsboro;
+  border-style: solid;
+  font-size: 31rpx;
+  border-color: white;
+  border-width: 1px;
+  border-bottom-color: gainsboro;
+}
+.wenxin{
+  margin-left: 45rpx;
+  font-size: 24rpx;
+  color: gainsboro;
+}

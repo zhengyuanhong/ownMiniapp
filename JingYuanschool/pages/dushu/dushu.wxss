@@ -1,0 +1,97 @@
+.all{
+  display: flex;
+  flex-direction: column;
+}
+.a{
+  width: 700rpx;
+  margin-left: 20rpx;
+  box-shadow: 5rpx 5rpx 25rpx #888888; 
+  height: 349rpx;
+  border-radius: 10rpx;
+  margin-top: 20rpx;
+}
+.xinshi{
+  display: flex;
+  flex-direction: row;
+  width: 400rpx;
+  margin-left: 110rpx;
+}
+
+.letter{
+  border-radius: 10rpx;
+margin-top: 30rpx;
+ box-shadow: 5rpx 5rpx 25rpx #888888;
+display: flex;
+width: 700rpx;
+margin-left: 20rpx;
+flex-direction: column;
+height: 1160rpx;
+background: white;
+}
+.letter1{
+  margin-left: 34rpx;
+}
+.letter1 input{
+  width: 622rpx;
+  font-size: 26rpx;
+  margin-left: 5rpx;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  border-bottom-color: gainsboro;
+  margin-top: 10rpx;
+}
+.letter1 text{
+  font-size: 25rpx;
+  color: gray;
+  margin-top: 5rpx;
+}
+.letter1 textarea{
+  font-size: 26rpx;
+  width: 622rpx;
+  border-width: 1px;
+  margin-left: 5rpx;
+  border-style: solid;
+  border-color: white;
+  border-bottom-color: gainsboro;
+  margin-top: 10rpx;
+}
+.but{
+  margin-left: 300rpx;
+  margin-top: 20rpx;
+}
+.das{
+  margin-top: 50rpx;
+  display: flex;
+  flex-direction: column;
+  margin-left: 200rpx;
+}
+.das text{
+  font-size: 24rpx;
+  color: gainsboro;
+  margin-left: 25rpx;
+  margin-top: 5rpx;
+}
+.xinfeng{
+  display: flex;
+  flex-direction: column;
+  height: 300rpx;
+  width: 700rpx;
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  background: white;
+  border-radius: 10rpx;
+  box-shadow: 5rpx 5rpx 25rpx #888888;
+}
+.xinfeng text{
+  font-size: 30rpx;
+  margin-left: 180rpx;
+  margin-top: 39rpx;
+  color: gainsboro;
+}
+.img{
+  width: 99rpx;
+  height: 72rpx;
+  margin-top: 45rpx;
+  margin-left: 305rpx;
+}

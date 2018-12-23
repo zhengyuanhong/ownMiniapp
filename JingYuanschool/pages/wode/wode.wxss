@@ -1,0 +1,90 @@
+.shou{
+  margin-right: 60rpx;
+  margin-bottom: 65rpx;
+}
+.use{
+  font-size: 30rpx;
+  margin-top: 50rpx;
+  width: 200rpx;
+  margin-left:20rpx;
+}
+.use1{
+  font-size: 30rpx;
+  margin-top: 50rpx;
+
+}
+.wode text{
+  text-align: center;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+}
+.wode{
+  display: flex;
+  flex-direction: column;
+
+}
+.shenfenzheng{
+  margin-top: 5rpx;
+  display: flex;
+  flex-direction: row;
+  width: 750rpx;
+  height: 200rpx;
+  background: white;
+}
+.img{
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+}
+
+.content{
+  display: flex;
+  flex-direction: row;
+  margin-top: 30rpx;
+  width: 400rpx;
+  height: 150rpx;
+  border-color: white;
+  border-width: 2rpx;
+}
+.money{
+  margin-top: 75rpx;
+  margin-left: 150rpx;  
+  display: flex;
+  flex-direction: row;
+
+}
+
+.liaojie{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20rpx;
+  height: 70rpx;
+  width: 750rpx;
+  background: white;
+}
+.liaojie text{
+  margin-left: 20rpx;
+  margin-top: 10rpx;
+}
+.more{
+  margin-top: 3rpx;
+  margin-left: 466rpx;
+    width:50rpx;
+    height:50rpx;
+  float: right;
+}
+.name{
+  margin-top: 498rpx;
+  margin-left: 312rpx;
+  font-size: 26rpx;
+  color: gainsboro;
+}
+page{
+  background: white;
+}
+.tu{
+  width: 50rpx;
+  height: 50rpx;
+  position: relative;
+  top: 8rpx;
+  left: 11rpx;
+}

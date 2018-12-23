@@ -1,0 +1,46 @@
+page{
+  background: white;
+}
+.fabu{
+  background: white;
+  display: flex;
+  flex-direction: column;
+}
+.input{
+  font-size: 30rpx;
+  width: 700rpx;
+  margin-left: 24rpx;
+  border-style: solid;
+  border-color: white;
+  border-bottom-color: ghostwhite;
+  border-width: 1px;
+}
+.textarea{
+  font-size: 30rpx;
+  width: 700rpx;
+  margin-left: 24rpx;
+  border-style: solid;
+  border-color: white;
+  border-bottom-color: ghostwhite;
+  border-width: 1px; 
+}
+.button{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20rpx;
+}
+.fabu1{
+  width: 120rpx;
+  height: 120rpx;
+  margin-top: 20rpx;
+  margin-left: 10rpx;
+}
+.but1{
+  width: 350rpx;
+  height: 91rpx;
+  line-height: 85rpx;
+  box-shadow: 1rpx 1rpx 5rpx gainsboro;
+  margin-left: 16rpx;
+  background: white;
+  text-align: center;
+}

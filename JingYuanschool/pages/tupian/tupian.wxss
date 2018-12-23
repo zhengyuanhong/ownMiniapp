@@ -1,0 +1,31 @@
+.imgList{
+  margin-left: 20rpx;
+  border-radius: 10rpx;
+  box-shadow: 0px 0px 50rpx #888888;  
+  margin-top: 50rpx;
+}
+.imgList1{
+  border-radius: 10rpx; 
+}
+.where{
+  margin-left: 500rpx;
+
+}
+.where1{
+  margin-left: 10rpx;
+  font-size: 28rpx;
+  color: gainsboro;
+}
+.where text{
+  font-size: 30rpx;
+  color: gainsboro;
+}
+.xinfeng{
+  background: white;
+  height: 459rpx;
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  width: 700rpx;
+  box-shadow: 0px 0px 50rpx #888888;
+  border-radius: 10rpx;
+}

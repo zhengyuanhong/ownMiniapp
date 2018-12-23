@@ -1,0 +1,19 @@
+<scroll-view  scroll-y style='height:100%' class='scroll-1' >
+
+<view class='fankui'>
+    <form bindsubmit="bindFormSubmit">
+    <textarea placeholder="给我们建议~" maxlength='1000' name="textarea" class='text' />
+    <button class='but' form-type="submit" type='primary' size='mini' > 提交 </button>
+    </form>
+</view>
+
+<view class='cont' >
+    <image bindtap='erwei' src='{{erwei}}' class='img' />
+</view> 
+
+<text class='te' >关注我们了解更多精彩内容</text>
+
+</scroll-view>
+
+
+

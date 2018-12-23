@@ -1,0 +1,20 @@
+<scroll-view scroll-y style='height:100%' class='scroll-1' >
+<view class='hr' ></view>
+  <block wx:for="{{jianzhi}}" wx:key="d">
+      <view class='lists' bindtap='jian' id='{{index}}'>
+        <view class='list'>
+              <view class='biaoti' >
+              
+                <text>{{item.biaoti}}</text>
+                <view class='a' >{{item.fuli}}</view>
+
+              </view>
+                  <view class='didian' >
+                      <view>{{item.adress}}</view>
+                      <text>{{item.time}}</text>
+                  </view>
+              <view class='gongzi' >{{item.money}}</view>
+        </view>
+      </view>  
+  </block>
+</scroll-view>

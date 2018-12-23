@@ -1,0 +1,18 @@
+<scroll-view  scroll-y style='height:1200rpx;' class='scroll-1' >
+    <block wx:for="{{shiwu}}" wx:key="d" >
+          <view class='shiwu' >
+              <view class='xin_use'>
+                    <image   src='{{item.user_img}}' style='width:60rpx;height:60rpx;border-radius:100rpx;margin-top:4rpx;margin-left:20rpx;'/>
+                    <text>{{item.user_name}}</text>
+                    <image class='call_phone' bindtap='call' id='{{index}}' src='/image/call.png' />
+                </view> 
+                <view class='shiwu1'><text>{{item.content}}</text></view>
+                <view><image bindtap='img'id="{{index}}" src='{{item.img1}}' style='margin-left:28rpx;width:700rpx;' mode='aspectFill'/></view>
+                <view class='meiwen-time'>
+                    <view class='meiwen-time1' >
+                      <text style='color:gainsboro;' >{{item.createdAt}}</text>
+                    </view>
+                </view>
+          </view>
+    </block>
+</scroll-view>

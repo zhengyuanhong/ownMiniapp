@@ -1,0 +1,38 @@
+<scroll-view scroll-y style='height:1200rpx;' class='scroll-1' >
+  <view  class='wode' >
+        <view class='shenfenzheng' >
+              <view class='content'>
+                  <image class='img' wx:if="{{userimg==''}}" src='/image/user.png' style='width:100rpx;height:100rpx;border-radius:50%;'/>
+                  <image class='img' wx:else src='{{userimg}}' style='width:100rpx;height:100rpx;border-radius:50%;'/>
+                    <view class='use' wx:if="{{username==''}}" >chanbaobaby</view>
+                    <view class='use' wx:else >{{username}}</view>
+              </view>
+              <view hidden='{{hid}}' class='money'>
+                  <button class='shou' type='primary' size='mini'  open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onGotUserInfo">登录</button>
+              </view> 
+        </view>
+  </view>
+  
+  <view class='liaojie' bindtap='jilu' >
+      <image class='tu' src='/image/jilu.png' ></image>
+      <text>发布记录</text>
+      <image class='more' src='/image/more.png'  />
+  </view>
+    <view class='liaojie' bindtap='call1'>
+      <image class='tu' src='/image/fankui.png' ></image>
+      <text>反馈我们</text>
+      <image class='more' src='/image/more.png' />
+  </view>
+
+  <view class='liaojie' bindtap='call' >
+       <image class='tu' src='/image/kefu.png' ></image>
+      <text>联系客服</text>
+      <image class='more' src='/image/more.png'  />
+  </view>
+  <view class='liaojie' bindtap='das' >
+      <image class='tu' src='/image/zanshang.png' ></image>
+      <text>赞赏小编</text>
+      <image class='more' src='/image/more.png' />
+  </view>
+<view class='name'><text  >馋宝工作室</text></view>
+</scroll-view>

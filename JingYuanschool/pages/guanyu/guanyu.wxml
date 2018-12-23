@@ -1,0 +1,66 @@
+<scroll-view scroll-y style='height:100%' class='scroll-1' >
+  <view class='all'>
+  
+              <view class='biaoti'>
+                <view class='biaoti1' >
+                  <view class='tt' >{{jianzhi.biaoti}}</view>
+                </view>
+
+                <view class='qian' >
+                    <text>{{jianzhi.money}}</text>
+                    <image src='/image/qian.png'  style='width:50rpx;height:50rpx;margin-top:20rpx;margin-left:10rpx;' />
+                </view>
+              </view>
+
+      <view class='lianxi' bindtap='call' >
+         <text>联系贵方</text>
+          <image src='/image/phone.png' style='width:50rpx;height:50rpx;' />
+        </view>
+
+      <view class='neirong'>
+          <view class='neirong1' >
+            <text>工作时间：</text>
+            <view class='cont'>{{jianzhi.time}}</view>
+          </view>
+      </view>
+
+      <view class='neirong'>
+          <view class='neirong1' >
+            <text>工作地点：</text>
+            <view class='cont'>{{jianzhi.adress}}</view>
+          </view>
+      </view>
+
+      <view class='xiang'>详情介绍</view>
+
+      <view class='neirong'>
+          <view class='neirong1' >
+            <text>招聘类型：</text>
+            <view class='cont'>{{jianzhi.zhaopin}}</view>
+          </view>
+      </view>
+
+      <view class='neirong'>
+          <view class='neirong1' >
+            <text>人员要求：</text>
+            <view class='cont'>{{jianzhi.yaoqiu}}</view>
+          </view>
+      </view>
+
+      <view class='neirong'>
+          <view class='neirong1' >
+            <text>薪资福利：</text>
+            <view class='cont'>{{jianzhi.fuli}}</view>
+          </view>
+      </view>
+
+      <view class='neirong'>
+          <view class='neirong1' >
+            <text>职位描述：</text>
+            <view class='cont' >{{jianzhi.miaoshu}} </view>
+          </view>
+      </view>   
+
+      <view class='wenxin' >温馨提示：{{jianzhi.shuoming}}</view>   
+  </view>
+</scroll-view>

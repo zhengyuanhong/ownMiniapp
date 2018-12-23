@@ -1,0 +1,12 @@
+<view class='fabu'>
+  <form bindsubmit='submitshiwu' >
+    <input class='input' placeholder='输入你的电话号码' type='number' maxlength='18' value='{{tel}}'  name="tel" ></input>
+    <textarea class='textarea' placeholder='为了让失主确认，说点什么吧' value='{{content}}'  maxlength='1000' name="content" ></textarea>
+      <image src='/image/fabu.png' bindtap='tianjia' wx:if="{{img3==''}}" class='fabu1' ></image>
+      <image src='{{img3[0]}}' mode='aspectFit' else class='fabu1' ></image>
+      <view class='button'>
+          <button class='but1' bindtap='reset' ><text>重选照片</text></button>
+          <button  class='but1'  form-type='submit' ><text>发布</text></button>    
+      </view> 
+  </form>
+</view>

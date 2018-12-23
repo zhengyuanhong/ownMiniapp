@@ -1,0 +1,54 @@
+
+.cc{
+  position: relative;
+  left: 45rpx;
+  top: 10rpx;
+}
+.lists{
+  background: white;
+}
+.hr{
+ margin-top: 5rpx;
+}
+.list{
+  display: flex;
+  flex-direction: column;
+  width: 700rpx;
+  margin-left: 20rpx;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  border-bottom-color: gainsboro;
+}
+.biaoti{
+display: flex;
+flex-direction: row;
+margin-top: 20rpx;
+}
+.biaoti text{
+  width: 541rpx;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-weight: bold;
+}
+.a{
+  margin-left: 40rpx;
+  color: greenyellow;
+}
+.didian{
+  font-size: 30rpx;
+  color: gainsboro;
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: row;
+}
+.didian text{
+  margin-left: 50rpx;
+}
+.gongzi{
+  margin-top: 20rpx;
+  color: red;
+  margin-bottom: 20rpx;
+}
+

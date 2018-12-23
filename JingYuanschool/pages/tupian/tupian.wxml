@@ -1,0 +1,12 @@
+
+<scroll-view  scroll-y style='height:100%' class='scroll-1' >
+
+    <block wx:for="{{tupian}}" wx:key="d" >
+        <view class='xinfeng'>
+              <image bindtap='img' id='{{index}}' class='imgList1' src='{{item.tupian_url}}' style='width:700rpx;height:400rpx;'/>
+                  <view class='where1' ><text>用我当信封</text></view>
+        </view>
+    </block>
+   
+</scroll-view>
+

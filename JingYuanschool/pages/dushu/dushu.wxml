@@ -1,0 +1,31 @@
+<image class='a' src='/image/xin.jpeg'  ></image>
+<view class='all' >
+    <view class='xinfeng' >
+        <image src='/image/xiexin.png' class='img' />
+        <text>留下邮件地址和你想说的话</text>
+        <text>当前的信封类型：{{value}}</text>
+    </view>
+     <view class='letter' >
+        <form bindsubmit="jixin">
+          <view class='letter1' ><text>寄信人</text><input placeholder='你的名字' type='text' name="name" ></input></view>
+          <view class='letter1' ><text>寄信人电话</text><input placeholder='147XXXXXXXX' type='number' name="tel" ></input></view>
+          <view class='letter1' ><text>收信人</text><input placeholder='收信人名字' type='text' name="name1" ></input></view>
+          <view class='letter1' ><text>收信人电话</text><input placeholder='138XXXXXXXX' type='number' name="tel1" ></input></view>
+          <view class='letter1' ><text>收信人地址</text><input placeholder='XX省XX市XXXXX'  type='text' name="adress" ></input></view>
+          <view class='letter1' >
+          <text>想对ta说的话...</text>
+          <textarea maxlength="{{1000}}"  name="textarea"/>
+          
+          </view>
+          <button class='but' form-type="submit" type='primary' size='mini' >发送</button>
+        </form>
+        <view class='xinshi' >
+            <view class='das'  bindtap='das' >
+            <image  src='/image/dashang.png' style='margin-left:17rpx;width:70rpx;height:70rpx;' />
+            <text>打赏</text>
+            
+            </view>
+        </view>
+     </view>
+
+</view>

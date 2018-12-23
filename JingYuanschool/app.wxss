@@ -1,0 +1,13 @@
+page{
+  background: white;
+}
+.scroll-1{
+  display: flex;
+  flex-direction: column;
+}
+view{
+  font-family:"Times New Roman", Times, serif;
+}
+view text{
+  font-family:"Times New Roman", Times, serif;
+}

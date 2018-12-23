@@ -1,0 +1,14 @@
+<scroll-view scroll-y style='height:100%' class='scroll-1' >
+    <block wx:for="{{shetuan}}" wx:key="s">
+      <view class='s' >
+          <view class='List' >
+              <text>{{item.name}}</text>
+              <view class='List-1'>
+                <image bindtap='zan' id='{{item.key}}' data-f='{{index}}'  src='{{imgurl}}' style='width:35px;height:35px;'/>
+                <view class='List-2' >喜欢{{item.count}}</view>
+              </view>
+          </view>
+      </view>
+    </block>
+</scroll-view>
+

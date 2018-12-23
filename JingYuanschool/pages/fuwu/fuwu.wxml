@@ -1,0 +1,9 @@
+<block wx:for="{{shiwu}}" wx:key="d">
+    <view class='neirong' >
+      <view class='neirong-1' >
+        <view class='neirong-2' >您在{{item.createdAt}}发布了一条失物招领</view>
+        <view class='neirong-2'>内容：<text>{{item.content}}</text></view>
+      </view>
+      <image bindtap='dele' id='{{index}}' class='img' src='/image/dele.png' ></image>
+    </view>
+</block>

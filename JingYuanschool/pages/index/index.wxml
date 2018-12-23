@@ -1,0 +1,67 @@
+
+<scroll-view scroll-y style='height:1108rpx;' class='scroll-1'>
+    <view class='all' >
+    <image class='index_img' src='{{index[0].up_img}}' ></image>
+      <view class='up' >
+          <view class='lo' bindtap='guanzhu'>
+          <image  class='logo' src='/image/xiaoyuan.png' ></image>
+          <view class='ua' >------点我刷新本页面</view>
+          </view>
+          <navigator url='../tupian/tupian' class='up-1' >
+              <image src='/image/fengcai.png'  style='width:114rpx;height:114rpx;margin-top:10rpx;margin-left:36rpx;'></image>
+              <view class='u' >只有照片才是回忆</view>
+          </navigator>
+          <navigator url='../shetuan/shetuan' class='up-2' >
+               <image src='/image/she.png'  style='width:192rpx;height:114rpx;margin-top:10rpx;margin-left:2rpx;'></image>
+              <view class='u' >喜欢就送花给他们</view>
+          </navigator>
+      </view>
+
+      <view class='middle' >
+          <view class='middle-1' >
+              <view class='tt' >{{index[0].world}}</view>
+          </view>
+          <navigator url='../tupian/tupian' class='middle-2' >
+              <view  class='m'>
+                 <view class='m1' >letter</view>
+              </view>
+              <view class='m2'>帮你捎口信</view>
+          </navigator>
+      </view>
+
+      <view class='zhong' >
+
+          <navigator  class='zhong-1' >
+              <view class='a' >
+                  <view class='p'>小纠结</view>
+              </view>
+              <view class='b' >有不好做决定的是吗</view>
+          </navigator>
+           <navigator url='../jianzhi/jianzhi' class='zhong-2' >
+              <view class='a' >
+                    <view class='p'>零花钱</view>
+              </view>
+              <view class='b' >裤兜瘪了要怎么做？</view>
+          </navigator>
+
+          <navigator url='../shiwu/shiwu' class='zhong-3' >
+              <view class='a' >
+                  <view class='p'>小宝贝</view>
+              </view>
+              <view class='b' >主人这是你的东西吗</view>
+          </navigator>
+      </view>
+    </view>
+
+      <swiper class='meau1'  indicator-dots="{{indicatorDots}}"
+          autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+          <block wx:for="{{index[0].img_url}}" wx:key="D" >
+            <swiper-item>
+              <image src="{{item}}"  style='width:700rpx;height:190rpx;'/>
+            </swiper-item>
+          </block>
+        </swiper>
+        <view class='test' >用心做事，舍弃得失</view>
+ </scroll-view>
+
+     
